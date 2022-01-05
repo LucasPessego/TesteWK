@@ -1,0 +1,82 @@
+object DM: TDM
+  OldCreateOrder = False
+  Height = 687
+  Width = 897
+  object Conexao: TFDConnection
+    Params.Strings = (
+      'Database=dblucas'
+      'User_Name=root'
+      'DriverID=MySQL')
+    Connected = True
+    LoginPrompt = False
+    Left = 169
+    Top = 16
+  end
+  object DSClientes: TDataSource
+    DataSet = tClientes
+    Left = 288
+    Top = 16
+  end
+  object DSProdutos: TDataSource
+    DataSet = tProdutos
+    Left = 296
+    Top = 80
+  end
+  object tClientes: TFDTable
+    Active = True
+    IndexFieldNames = 'cli_codigo'
+    Connection = Conexao
+    TableName = 'dblucas.t_clientes'
+    Left = 224
+    Top = 16
+  end
+  object tProdutos: TFDTable
+    Active = True
+    IndexFieldNames = 'prod_codigo'
+    Connection = Conexao
+    TableName = 'dblucas.t_produtos'
+    Left = 224
+    Top = 80
+  end
+  object DSPedidos: TDataSource
+    DataSet = tPedidos
+    Left = 224
+    Top = 224
+  end
+  object tPedidos: TFDTable
+    Active = True
+    IndexFieldNames = 'ped_num'
+    Connection = Conexao
+    TableName = 'dblucas.t_pedidos'
+    Left = 312
+    Top = 224
+    object tPedidosped_num: TFDAutoIncField
+      FieldName = 'ped_num'
+      Origin = 'ped_num'
+    end
+    object tPedidosped_dtEmissao: TDateTimeField
+      FieldName = 'ped_dtEmissao'
+      Origin = 'ped_dtEmissao'
+      Required = True
+    end
+    object tPedidoscli_codigo: TIntegerField
+      FieldName = 'cli_codigo'
+      Origin = 'cli_codigo'
+      Required = True
+    end
+    object tPedidosped_vlrTotal: TLargeintField
+      FieldName = 'ped_vlrTotal'
+      Origin = 'ped_vlrTotal'
+      Required = True
+    end
+  end
+  object DSItens: TDataSource
+    Left = 296
+    Top = 152
+  end
+  object tItens: TFDTable
+    Connection = Conexao
+    Left = 224
+    Top = 160
+  end
+end

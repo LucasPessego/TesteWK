@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2022/01/03 16:02:32.000.211,=C:\Users\lucas\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/01/03 16:02:48.000.218,C:\Users\lucas\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\lucas\Documents\Embarcadero\Studio\Projects\TesteTecnicoLucasPersch\TesteTecnico.pas</Transaction>
+    <Transaction>2022/01/03 16:02:48.000.218,C:\Users\lucas\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\lucas\Documents\Embarcadero\Studio\Projects\TesteTecnicoLucasPersch\TesteTecnico.dfm</Transaction>
+    <Transaction>2022/01/03 16:03:02.000.896,C:\Users\lucas\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\lucas\Documents\Embarcadero\Studio\Projects\TesteTecnicoLucasPersch\TesteWK.dproj</Transaction>
+    <Transaction>2022/01/03 16:05:25.000.899,=C:\Users\lucas\Documents\Embarcadero\Studio\Projects\TesteTecnicoLucasPersch\Unit1.pas</Transaction>
+    <Transaction>2022/01/03 16:05:47.000.673,C:\Users\lucas\Documents\Embarcadero\Studio\Projects\TesteTecnicoLucasPersch\Unit1.pas=C:\Users\lucas\Documents\Embarcadero\Studio\Projects\TesteTecnicoLucasPersch\DMTesteTecnico.pas</Transaction>
+    <Transaction>2022/01/03 16:05:47.000.673,C:\Users\lucas\Documents\Embarcadero\Studio\Projects\TesteTecnicoLucasPersch\Unit1.dfm=C:\Users\lucas\Documents\Embarcadero\Studio\Projects\TesteTecnicoLucasPersch\DMTesteTecnico.dfm</Transaction>
+  </Transactions>
+</BorlandProject>
